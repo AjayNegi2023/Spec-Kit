@@ -1,0 +1,188 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Alumni",
+      "email": "alumni@test.com",
+      "role": "alumni",
+      "password": "test123",
+      "avatar": "https://ui-avatars.com/api/?name=John+Alumni&background=0366d6&color=fff"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Student",
+      "email": "student@test.com",
+      "role": "student",
+      "password": "test123",
+      "avatar": "https://ui-avatars.com/api/?name=Sarah+Student&background=2ea44f&color=fff"
+    },
+    {
+      "id": "3",
+      "name": "Emma Thompson",
+      "email": "emma@tech.com",
+      "role": "alumni",
+      "password": "test123",
+      "avatar": "https://ui-avatars.com/api/?name=Emma+Thompson&background=8957e5&color=fff"
+    },
+    {
+      "id": "4",
+      "name": "Michael Chen",
+      "email": "michael@startup.com",
+      "role": "alumni",
+      "password": "test123",
+      "avatar": "https://ui-avatars.com/api/?name=Michael+Chen&background=e85d04&color=fff"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "1",
+      "userId": "1",
+      "headline": "Senior Software Engineer",
+      "bio": "Experienced developer specializing in cloud architecture and distributed systems. Led multiple successful projects and mentored junior developers.",
+      "graduationYear": 2020,
+      "company": "Tech Corp",
+      "location": "San Francisco, CA",
+      "skills": ["React", "Node.js", "AWS", "Python", "System Design"],
+      "experience": [
+        {
+          "title": "Senior Software Engineer",
+          "company": "Tech Corp",
+          "startDate": "2022-01",
+          "current": true,
+          "description": "Leading a team of 5 developers, architecting cloud-native solutions"
+        },
+        {
+          "title": "Software Engineer",
+          "company": "StartUp Inc",
+          "startDate": "2020-06",
+          "endDate": "2021-12",
+          "description": "Developed scalable backend services using Node.js and AWS"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "headline": "Computer Science Student",
+      "bio": "Final year CS student with a focus on AI and machine learning. Active in coding competitions and hackathons.",
+      "graduationYear": 2024,
+      "location": "Boston, MA",
+      "skills": ["Python", "TensorFlow", "Java", "Git", "Data Structures"],
+      "projects": [
+        {
+          "name": "AI Chess Engine",
+          "description": "Implemented a chess engine using minimax algorithm with alpha-beta pruning",
+          "technologies": ["Python", "TensorFlow", "PyQt"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "headline": "Product Manager",
+      "bio": "Product leader with expertise in agile methodologies and user-centered design. Passionate about creating impactful products.",
+      "graduationYear": 2019,
+      "company": "Innovation Labs",
+      "location": "Seattle, WA",
+      "skills": ["Product Strategy", "Agile", "User Research", "Data Analysis", "Wireframing"],
+      "experience": [
+        {
+          "title": "Product Manager",
+          "company": "Innovation Labs",
+          "startDate": "2021-03",
+          "current": true,
+          "description": "Leading product strategy for AI-powered analytics platform"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "headline": "Startup Founder & CTO",
+      "bio": "Tech entrepreneur with a passion for solving real-world problems through innovation. Previously led engineering at multiple successful startups.",
+      "graduationYear": 2018,
+      "company": "Future Tech",
+      "location": "Austin, TX",
+      "skills": ["Leadership", "Entrepreneurship", "System Architecture", "Golang", "Kubernetes"],
+      "experience": [
+        {
+          "title": "CTO & Co-founder",
+          "company": "Future Tech",
+          "startDate": "2021-01",
+          "current": true,
+          "description": "Building next-generation developer tools"
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior Frontend Engineer",
+      "company": "Tech Corp",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "description": "Looking for an experienced frontend engineer to join our growing team.",
+      "requirements": [
+        "5+ years of experience with React",
+        "Strong TypeScript skills",
+        "Experience with state management (Redux/MobX)",
+        "Understanding of modern CSS practices"
+      ],
+      "postedBy": "1",
+      "postedDate": "2025-10-01"
+    },
+    {
+      "id": "2",
+      "title": "Product Manager",
+      "company": "Innovation Labs",
+      "location": "Remote",
+      "type": "Full-time",
+      "description": "Join our product team to help shape the future of enterprise software.",
+      "requirements": [
+        "3+ years of product management experience",
+        "Experience with B2B products",
+        "Strong analytical skills",
+        "Excellent communication abilities"
+      ],
+      "postedBy": "3",
+      "postedDate": "2025-10-05"
+    },
+    {
+      "id": "3",
+      "title": "Machine Learning Engineer",
+      "company": "Future Tech",
+      "location": "Austin, TX",
+      "type": "Full-time",
+      "description": "Help us build cutting-edge ML solutions for developer tools.",
+      "requirements": [
+        "MS/PhD in Computer Science or related field",
+        "Strong Python and PyTorch experience",
+        "Experience with MLOps",
+        "Background in NLP is a plus"
+      ],
+      "postedBy": "4",
+      "postedDate": "2025-10-06"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "Tech Alumni Mixer",
+      "date": "2025-11-15",
+      "location": "San Francisco, CA",
+      "description": "Join us for an evening of networking and tech talks",
+      "organizer": "1",
+      "type": "Networking"
+    },
+    {
+      "id": "2",
+      "title": "AI in Practice Workshop",
+      "date": "2025-11-20",
+      "location": "Virtual",
+      "description": "Learn about practical applications of AI from industry experts",
+      "organizer": "3",
+      "type": "Workshop"
+    }
+  ]
+}
